@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Postac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bohater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Przedmioty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KostkaD6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Atrybuty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HpPotka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miecz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BadGuys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sztylet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Korbacz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Walka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Postac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bohater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Przedmioty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KostkaD6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Atrybuty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HpPotka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miecz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BadGuys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sztylet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Korbacz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Walka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
