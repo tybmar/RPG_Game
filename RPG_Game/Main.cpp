@@ -31,9 +31,8 @@ int main()
 	cin.get();
 
 	const auto alive_pred = [](Postac* pf) { return pf->CzyZyje(); };
-	while (
-		any_of(t1.begin(), t1.end(), alive_pred) &&
-		any_of(t2.begin(), t2.end(), alive_pred))
+
+	while (any_of(t1.begin(), t1.end(), alive_pred) && any_of(t2.begin(), t2.end(), alive_pred))
 	{
 		random_shuffle(t1.begin(), t1.end());
 		partition(t1.begin(), t1.end(), alive_pred);
@@ -44,7 +43,7 @@ int main()
 		{
 			Walka::Starcie(*t1[i], *t2[i]);
 			Walka::AtakSpecjalny(*t1[i], *t2[i]);
-			cout << "------------------------------------" << endl;
+			cout << endl;
 		}
 		cout << "=====================================" << endl;
 
@@ -52,13 +51,14 @@ int main()
 		{
 			t1[i]->Regen();
 			t2[i]->Regen();
+			cout << endl;
 		}
 		cout << "=====================================" << endl;
 
 		cout << "Nacisnij aby kontynuowac";
 		cin.get();
 		
-		cout << endl << endl;
+		cout << endl;
 	}
 
 	if (any_of(t1.begin(), t1.end(), alive_pred))
